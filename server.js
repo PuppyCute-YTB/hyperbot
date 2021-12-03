@@ -134,11 +134,11 @@ const usePolyglot = isEnvTrue('USE_POLYGLOT')
 envKeys.push('USE_POLYGLOT')
 const useSolution = isEnvTrue('USE_SOLUTION')
 envKeys.push('USE_SOLUTION')
-const welcomeMessage = process.env.WELCOME_MESSAGE || `coded by @hyperchessbotauthor`
+const welcomeMessage = process.env.WELCOME_MESSAGE || `Code by @Binh_Nguyen-2010`
 envKeys.push('WELCOME_MESSAGE')
-const goodLuckMessage = process.env.GOOD_LUCK_MESSAGE || `Good luck !`
+const goodLuckMessage = process.env.GOOD_LUCK_MESSAGE || `Good luck!`
 envKeys.push('GOOD_LUCK_MESSAGE')
-const goodGameMessage = process.env.GOOD_GAME_MESSAGE || `Good game !`
+const goodGameMessage = process.env.GOOD_GAME_MESSAGE || `Good game!`
 envKeys.push('GOOD_GAME_MESSAGE')
 let disableSyzygy = isEnvTrue('DISABLE_SYZYGY')
 envKeys.push('DISABLE_SYZYGY')
