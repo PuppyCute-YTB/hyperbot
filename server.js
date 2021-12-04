@@ -1131,7 +1131,7 @@ app.get('/', (req, res) => {
 					showGame(id, fen, orientation, title, lastmove)
 				}
 			</script>
-            <h1>Welcome to Hyper Bot !</h1>            
+            <h1>Welcome to CBNguyen_Bot Lichess Bot !</h1>            
             <p class="p"><a href="https://lichess.org/@/${lichessBotName}" rel="noopener noreferrer" target="_blank">${lichessBotName}</a> is powered by Hyper Bot 
             ( 
 			<a href="/chr" rel="noopener noreferrer" target="_blank" onclick="challengeRandom(event)">challenge random bot by ${lichessBotName}</a> |
