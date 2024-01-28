@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 // init
 const MongoClient = require('mongodb').MongoClient
-const keep_alive = require('./keep_alive.js')
+//const keep_alive = require('./keep_alive.js')
 const MONGODB_URI = process.env.MONGODB_URI
 
 let client, bookdb, poscoll, movecoll
